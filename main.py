@@ -48,7 +48,9 @@ while q != 'q':
                 print("Победил игрок!")
             else:
                 print('Победил ИИ')
+            print("Поле ИИ")
             pii.show_board_player(pii)
+            print('Поле игрока')
             player.show_board_player(player)
             break
     except ValueError as e:

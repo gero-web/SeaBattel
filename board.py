@@ -92,7 +92,7 @@ class Board:
                 if ship and ship.show(player_flag) == 'X':
                     count += 1
 
-        if count > 11:
+        if count >= 11:
             return False
         return True
 
